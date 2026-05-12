@@ -12,13 +12,10 @@
 This project explores the relationship between logistics efficiency and customer satisfaction within the Brazilian e-commerce landscape. By analyzing over **100,000 orders** from the Olist dataset, I developed a high-fidelity dashboard to visualize how delivery performance directly impacts business health.
 
 ## 🚀 Key Insights & Findings
-The core of this analysis centers on the **'Safety Margin'** (the difference in days between the estimated delivery date and the actual delivery date).
-
-* **The Satisfaction Threshold:** There is a clear linear correlation between the delivery buffer and customer ratings.
-    * **5-Star Reviews:** Maintain a healthy **Safety Margin of 12.83 days**.
-    * **1-Star Reviews:** The buffer collapses to only **5.39 days**.
-* **Logistics as a CX Driver:** The data suggests that customer dissatisfaction is triggered not just by "late" deliveries, but by the erosion of the promised delivery window. When the safety margin falls below **6 days**, negative reviews increase significantly.
-* **Revenue Concentration:** The Top 10 product categories (led by Health & Beauty and Watches) account for a significant portion of the $13.59M total revenue, highlighting where logistics optimization will have the highest financial impact.
+* **Logistics Sensitivity Analysis:** The correlation model shows a clear "Critical Buffer Zone." 
+    * **Negative Margins (Delays):** Satisfaction drops exponentially, averaging below **2.0 stars**.
+    * **The 10-Day Gold Standard:** As the **Safety Margin** exceeds 10 days, customer satisfaction stabilizes at its peak (**4.5+ stars**). 
+    * **Insight:** This proves that logistics reliability is the strongest predictor of customer loyalty for Olist.
 
 ## 🛠️ Tech Stack
 * **Python (Pandas):** Data cleaning, ETL, and feature engineering for logistics metrics.
