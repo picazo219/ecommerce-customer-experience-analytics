@@ -14,17 +14,16 @@ This project explores the relationship between logistics efficiency and customer
 ## 🚀 Key Insights & Findings
 The core of this analysis centers on the **'Safety Margin'** (the difference in days between the estimated delivery date and the actual delivery date).
 
-* **The Satisfaction Threshold:** There is a clear linear correlation between the delivery buffer and customer ratings.
-    * **5-Star Reviews:** Maintain a healthy **Safety Margin of 12.83 days**.
-    * **1-Star Reviews:** The buffer collapses to only **5.39 days**.
-* **Logistics as a CX Driver:** The data suggests that customer dissatisfaction is triggered not just by "late" deliveries, but by the erosion of the promised delivery window. When the safety margin falls below **6 days**, negative reviews increase significantly.
-* **Revenue Concentration:** The Top 10 product categories (led by Health & Beauty and Watches) account for a significant portion of the $13.59M total revenue, highlighting where logistics optimization will have the highest financial impact.
+* **Logistics Sensitivity Analysis:** I identified a "Critical Buffer Zone." Satisfaction stays low and volatile when the margin is below 5 days, but stabilizes at its peak (**4.5+ stars**) once the **Safety Margin exceeds 10 days**.
+* Logistics as a CX Driver: Customer dissatisfaction is triggered not just by "late" deliveries, but by the erosion of the promised delivery window. When the safety margin falls below 1 day (approaching the estimated date), review scores begin to drop significantly, indicating that customers value the "buffer" as much as the delivery itself.
+* **Revenue Concentration:** The Top 10 product categories (led by Health & Beauty and Watches) account for a significant portion of the $13.59M total revenue, highlighting where logistics optimization has the highest financial impact.
+
 
 ## 🛠️ Tech Stack
 * **Python (Pandas):** Data cleaning, ETL, and feature engineering for logistics metrics.
 * **SQL:** Complex data joins and time-series calculations.
 * **Power BI:** * **DAX:** Implementation of custom measures for Average Satisfaction and Safety Margins.
-    * **UI/UX:** Advanced dashboard design using custom gradients, dark-mode containers, and a strategic visual hierarchy.
+    * **UI/UX:** Advanced dashboard design using custom gradients and a strategic visual hierarchy.
 
 ## 💡 Strategic Recommendations
 1.  **Buffer Protection:** Implement an automated alert system when the predicted safety margin for an order falls below 7 days.
