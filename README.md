@@ -1,14 +1,12 @@
 # ecommerce-customer-experience-analytics
 📈 A data-driven approach to customer loyalty: Discovering how delivery precision impacts review scores in the Brazilian e-commerce market. Built with Python, SQL and Power BI.
 
+# Olist Logistics Performance & Customer Experience Analysis
+
 <p align="center">
   <img src="dashboard_preview.png" width="900" title="Dashboard Overview">
 </p>
 
-## 🎯 Project Overview
-...
-
-# Olist Logistics Performance & Customer Experience Analysis
 
 ## 🎯 Project Overview
 This project explores the relationship between logistics efficiency and customer satisfaction within the Brazilian e-commerce landscape. By analyzing over **100,000 orders** from the Olist dataset, I developed a high-fidelity dashboard to visualize how delivery performance directly impacts business health.
