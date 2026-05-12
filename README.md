@@ -1,9 +1,7 @@
 # ecommerce-customer-experience-analytics
 📈 A data-driven approach to customer loyalty: Discovering how delivery precision impacts review scores in the Brazilian e-commerce market. Built with Python, SQL and Power BI.
 
-<p align="center">
-  <img src="dashboard_preview.png" width="900" title="Dashboard Overview">
-</p>
+![Olist Dashboard Overview](dashboard_preview.png)
 
 ## 🎯 Project Overview
 ...
