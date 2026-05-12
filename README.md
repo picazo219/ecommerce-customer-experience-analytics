@@ -26,7 +26,7 @@ The core of this analysis centers on the **'Safety Margin'** (the difference in 
     * **UI/UX:** Advanced dashboard design using custom gradients and a strategic visual hierarchy.
 
 ## 💡 Strategic Recommendations
-1.  **Buffer Protection:** Implement an automated alert system when the predicted safety margin for an order falls below 7 days.
+1.  **Buffer Protection:** Implement an automated alert system when the predicted safety margin for an order falls below 5 days.
 2.  **Expectation Management:** Recalibrate the delivery estimation algorithm for states with high logistics volatility to maintain a perceived "Safety Zone" for the customer.
 3.  **Category-Specific Logistics:** Prioritize "Express" shipping for high-revenue categories to stabilize the overall platform NPS.
 
