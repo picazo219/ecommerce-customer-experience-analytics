@@ -12,16 +12,18 @@
 This project explores the relationship between logistics efficiency and customer satisfaction within the Brazilian e-commerce landscape. By analyzing over **100,000 orders** from the Olist dataset, I developed a high-fidelity dashboard to visualize how delivery performance directly impacts business health.
 
 ## 🚀 Key Insights & Findings
-* **Logistics Sensitivity Analysis:** The correlation model shows a clear "Critical Buffer Zone." 
-    * **Negative Margins (Delays):** Satisfaction drops exponentially, averaging below **2.0 stars**.
-    * **The 10-Day Gold Standard:** As the **Safety Margin** exceeds 10 days, customer satisfaction stabilizes at its peak (**4.5+ stars**). 
-    * **Insight:** This proves that logistics reliability is the strongest predictor of customer loyalty for Olist.
+The core of this analysis centers on the **'Safety Margin'** (the difference in days between the estimated delivery date and the actual delivery date).
+
+* **Logistics Sensitivity Analysis:** I identified a "Critical Buffer Zone." Satisfaction stays low and volatile when the margin is below 5 days, but stabilizes at its peak (**4.5+ stars**) once the **Safety Margin exceeds 10 days**.
+* **Logistics as a CX Driver:** Customer dissatisfaction is triggered not just by "late" deliveries, but by the erosion of the promised delivery window. When the safety margin falls below **6 days**, negative reviews increase significantly.
+* **Revenue Concentration:** The Top 10 product categories (led by Health & Beauty and Watches) account for a significant portion of the $13.59M total revenue, highlighting where logistics optimization has the highest financial impact.
+
 
 ## 🛠️ Tech Stack
 * **Python (Pandas):** Data cleaning, ETL, and feature engineering for logistics metrics.
 * **SQL:** Complex data joins and time-series calculations.
 * **Power BI:** * **DAX:** Implementation of custom measures for Average Satisfaction and Safety Margins.
-    * **UI/UX:** Advanced dashboard design using custom gradients, dark-mode containers, and a strategic visual hierarchy.
+    * **UI/UX:** Advanced dashboard design using custom gradients and a strategic visual hierarchy.
 
 ## 💡 Strategic Recommendations
 1.  **Buffer Protection:** Implement an automated alert system when the predicted safety margin for an order falls below 7 days.
